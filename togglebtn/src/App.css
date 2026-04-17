@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height:100vh;
+  transition: all 0.3s ease;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+.dark{
+  background-color: #121212;
+  color: white;
+}
+
+#btn{
+  width: 150px;
+  height:100px;
+  font-size: large;
+}

@@ -1,0 +1,17 @@
+.ma{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding : 20px;
+}
+
+@media (max-width: 768px) {
+  .ma{
+    margin-left: 0;
+  }
+}
+
+.ma img {
+  max-width: 100%;
+  height: auto;
+}

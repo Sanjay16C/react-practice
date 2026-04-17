@@ -1,0 +1,34 @@
+.cont{
+    position:fixed;
+    gap:30px;
+    padding:30px;
+    width:250px;
+    height:100vh;
+    background-color: beige;
+}
+
+.elements{
+    padding:30px;
+    gap:30px;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.elements h1:hover{
+    background-color: #ddd;
+    padding:5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .cont {
+    transform: translateX(-100%);
+    transition: 0.3s;
+  }
+
+  .cont.open {
+    transform: translateX(0);
+  }
+}

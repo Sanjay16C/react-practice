@@ -1,0 +1,17 @@
+.Card{
+    display:flex;
+    flex-direction:row;
+    overflow-x:auto;
+}
+
+.eachcard{
+    display : flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    background-color: yellow;
+    width: 280px;
+    border:2px solid black;
+    margin:50px;
+    padding:20px;
+    
+}

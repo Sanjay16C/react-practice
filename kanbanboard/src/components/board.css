@@ -1,0 +1,25 @@
+.board{
+    margin:50px;
+    background-color: beige;
+    width: 50vh;
+    height:auto;
+    min-height: 50vh;
+}
+
+.task{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    margin:50px;
+    justify-content: space-between;
+}
+
+#title{
+    margin:20px;
+    padding:20px;
+}
+
+#btn{
+    margin:20px;
+    padding:20px;
+}
